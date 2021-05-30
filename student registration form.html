@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> REGISTRATION FORM  </title>
+	<style type="text/css">
+		body{background-color: pink ;
+		background-size: cover;
+        opacity:0.75 ;
+        display: flex;
+        align-items: center;
+		background-repeat: no-repeat;
+	}
+
+		h1{color: #5B2C6F;
+			font-size: 40px;
+			word-spacing: 20px;
+		}
+		.container{background-color:#E7BDF9;
+			padding: 60px
+		}
+		input[type=text],input[type=password],textarea{
+
+			width: 100%;
+			padding: 20px 20px;
+			margin: 5px 0 22px 0;
+			border: ridge;
+			background: #5B2C6F;
+			opacity: 0.75;
+		}
+        input[type=text]:focus,input[type=password]:focus{
+			background-color: #0D0112 ;
+			color: pink;
+			outline: ridge;
+		}
+		.registerbtn{
+		background-color: #9F79FA;
+		color: pink;
+		padding: 16px 20px;
+		margin: 8px;
+		border: none;
+		border-radius: 6px;
+		width: 100%;
+		
+		}
+
+		button:hover{
+			opacity: 0.3
+		}
+		
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+	<center>
+		<h1 font style:verdana,courier,joker;>STUDENT REGISTRATION FORM</h1>
+	</center>
+	<hr style="height:3px" background color="green";>
+	
+	<label>First Name</label>
+	<input type="text" name="First Name" placeholder="Enter Your First Name" size="15" required>
+	<label>Middle Name</label>
+	<input type="text" name="Middle Name" placeholder="Enter Your First Name" size="15" required>
+	<label>Last Name</label>
+	<input type="text" name="Last Name" placeholder="Enter Your First Name" size="15" required>
+	<div>
+		<label>Course:</label>
+		<select>
+			<option >course</option>
+			<option value="BSC">BSC</option>
+			<option value="BBA">BBA</option>
+			<option value="BBI">BBI</option>
+			<option value="B.COM">B.COM</option>
+			<option value="MSC">MSC</option>
+			<option value="M.COM">M.COM</option>
+			<option value="MCA">MSC</option>
+			<option value="M.TECH">M.TECH</option>
+	    </select>
+	</div>
+	<div>
+	<label>Gender:</label>
+	<label>Male</label>
+	<input type="radio" name="gender" checked>
+	<label>Female</label>
+	<input type="radio"  name="gender" checked>
+	<label>Other</label>
+	<input type="radio" name="gender" checked>
+   </div>
+   <label>Phone Number</label>
+   <input type="text" name="country code" placeholder="country code" value="+91" size="2">
+   <input type="text" name="Phone" placeholder="Phone Number"  size="10" required>
+   Current Address:
+<textarea cols="80" rows="5" placeholder="Current Address" required></textarea>
+
+<label for="email"> 
+	<b>Email</b>
+</label>
+<input type="text" name="email" placeholder="Enter Email" required>
+
+<label for="password"> 
+	<b>Password</b>
+</label>
+<input type="password" name="password" placeholder="Enter Password" required>
+
+<label for="password-repeat"> 
+	<b>Password</b>
+</label>
+<input type="password" name="password-repeat" placeholder="Retype-Password" required>
+
+<button type="Submit" class="registerbutton">Register</button>
+	
+
+</body>
+</html>
